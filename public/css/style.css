@@ -107,6 +107,13 @@ footer p {
     line-height: 5rem;
     font-size: 2rem;
 }
+/* error page styel */
+.errimg img{
+    width: 60rem;
+    height: 50rem;
+
+
+}
 
 /* resposive code */
 

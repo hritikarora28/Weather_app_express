@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {{>headerLink}}
+
+        <title>Home</title>
+    </head>
+
+
+    <body>
+      {{>navbar}}
+    
+            <!-- Main Header -->
+            <div class="container-fluid main_Header">
+                <div class="row">
+                    <div class="col-md-10 col-12 mx-auto">
+                        <div class="main_content">
+                            <form  class="temp_form">
+                                <input type="text" id="cityNamw" placeholder="Enter city name" autocomplete="off"/>
+                                <input type ="submit" value="search" id="submitBtn"/>
+                            </form>
+
+                        </div>
+                        <div class="temp_info">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- footer code -->
+            {{>footer}}
+    </body>
+</html>
